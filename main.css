@@ -1,0 +1,105 @@
+.h1w, .h2w, .h3w, .h4w, .h5w{
+    color: #FFFFFF;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    display: inline-block;
+}
+.h1b, .h2b, .h3b, .h4b, .h5b{
+    color: #253D4C;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    display: inline-block;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.header-wrapper{
+    display: table;
+    width: 90.00533%;
+    height: auto;
+    background-color: #2B4151;
+    float: right;
+}
+.header-wrapper img{
+    display: table-cell;
+    width: 70px;
+    height: auto;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+.header-wrapper h1{
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+}
+.navigation-wrapper{
+    float: left;
+    display: block;
+    width: 10%;
+    min-height: 89.4%;
+    height: auto;
+    background-color: #2B4151;
+    padding-top: 100px;
+}
+.page-wrapper{
+    display: inline-block;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #E9E9E9;
+}
+.content-wrapper{
+    display: inline-block;
+    width: 80%;
+    min-height: 80%;
+    height: auto;
+    margin: auto;
+}
+.content-item-small{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    background-color: #FFFFFF;
+    margin: 20px 30px;
+    padding-left: 20px;
+    box-shadow: 5px 5px 5px #2B4151;
+    -moz-box-shadow: 5px 5px 5px #2B4151;
+    -o-box-shadow: 5px 5px 5px #2B4151;
+    -webkit-box-shadow: 5px 5px 5px #2B4151;
+}
+.content-item-big{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    margin: 20px 30px;
+    padding-left: 20px;
+    box-shadow: 5px 5px 5px #2B4151;
+    -moz-box-shadow: 5px 5px 5px #2B4151;
+    -o-box-shadow: 5px 5px 5px #2B4151;
+    -webkit-box-shadow: 5px 5px 5px #2B4151;
+}
+.navigation-item{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+.code-area{
+    width: 70%;
+    height: auto;
+    resizable: none;
+}
+#sqlButton{
+    background-color: #FF9700;
+}
+#xssButton{
+    background-color: #0081B8;
+}
+#csrfButton{
+    background-color: #FB433C;
+}
+.information-area{
+}
